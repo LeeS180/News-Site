@@ -271,7 +271,7 @@ oluşturduk ve resmi burada konumlandırdık ve absolute position ekledik ve kon
 /* articles */
 
 
-#main-articles .article-containers { 
+#main-articles .articles-containers { 
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
   gap: 1rem;
@@ -327,6 +327,10 @@ oluşturduk ve resmi burada konumlandırdık ve absolute position ekledik ve kon
 
 #main-footer .footer-container input[type="submit"] {
   width: 90%;
+}
+
+#main-footer .footer-container input[type="submit"]:hover {
+  cursor: pointer;
 }
 
 #main-footer .footer-container ul li {
